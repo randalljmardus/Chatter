@@ -10,6 +10,8 @@
 		1547BCAB1CF6405B005331A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547BCAA1CF6405B005331A9 /* AppDelegate.swift */; };
 		1547BCAD1CF6405B005331A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1547BCAC1CF6405B005331A9 /* Assets.xcassets */; };
 		1547BCB01CF6405B005331A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1547BCAE1CF6405B005331A9 /* MainMenu.xib */; };
+		1547BCB91CF640B3005331A9 /* ChatWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1547BCB71CF640B3005331A9 /* ChatWindowController.swift */; };
+		1547BCBA1CF640B3005331A9 /* ChatWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1547BCB81CF640B3005331A9 /* ChatWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		1547BCAC1CF6405B005331A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1547BCAF1CF6405B005331A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1547BCB11CF6405B005331A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1547BCB71CF640B3005331A9 /* ChatWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatWindowController.swift; sourceTree = "<group>"; };
+		1547BCB81CF640B3005331A9 /* ChatWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				1547BCAA1CF6405B005331A9 /* AppDelegate.swift */,
+				1547BCB71CF640B3005331A9 /* ChatWindowController.swift */,
+				1547BCB81CF640B3005331A9 /* ChatWindowController.xib */,
 				1547BCAC1CF6405B005331A9 /* Assets.xcassets */,
 				1547BCAE1CF6405B005331A9 /* MainMenu.xib */,
 				1547BCB11CF6405B005331A9 /* Info.plist */,
@@ -118,6 +124,7 @@
 			files = (
 				1547BCAD1CF6405B005331A9 /* Assets.xcassets in Resources */,
 				1547BCB01CF6405B005331A9 /* MainMenu.xib in Resources */,
+				1547BCBA1CF640B3005331A9 /* ChatWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1547BCAB1CF6405B005331A9 /* AppDelegate.swift in Sources */,
+				1547BCB91CF640B3005331A9 /* ChatWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
